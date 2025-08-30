@@ -1,0 +1,68 @@
+.friendrequest {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 20px;
+  background-color: var(--white);
+  box-sizing: border-box;
+  padding: 15px;
+  height: 260px;
+  overflow-y: auto;
+}
+
+.friendrequest-header h4 {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.friendreqest-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 10px;
+}
+
+.friendreqest-wrapper:last-child {
+  border-bottom: none;
+}
+
+.friendreq-images {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.friendreq-name {
+  width: 60%;
+}
+
+.friendreq-name h4 {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.friendrequest-btn {
+  width: 20%;
+}
+
+.friendrequest-btn button {
+  width: 100%;
+  border: none;
+  color: #fff;
+  background-color: var(--primary-color);
+  padding: 4px 0;
+  border-radius: 5px;
+  font-family: var(--primary-font);
+  font-size: 12px;
+  font-weight: 400;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.friendrequest-btn button:last-child {
+  background-color: rgb(255, 62, 62);
+}

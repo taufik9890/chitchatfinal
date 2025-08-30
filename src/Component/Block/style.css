@@ -1,0 +1,68 @@
+.blocklist {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 20px;
+  background-color: var(--white);
+  box-sizing: border-box;
+  padding: 15px;
+  height: 260px;
+  overflow-y: auto;
+}
+
+.blocklist-header h4 {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.blocked-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 10px;
+}
+
+.blocked-wrapper:last-child {
+  border-bottom: none;
+}
+
+.blocked-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.blocked-name {
+  width: 60%;
+}
+
+.blocked-name h4 {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.blocked-btn {
+  width: 20%;
+}
+
+.blocked-btn button {
+  width: 100%;
+  border: none;
+  color: var(--white);
+  background-color: var(--blue);
+  padding: 8px 0;
+  border-radius: 5px;
+  font-family: var(--primary-font);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+
+.blocked-btn button:hover {
+  background-color: rgb(255, 62, 62);
+}

@@ -1,0 +1,21 @@
+.main-forgot-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inner-forgot-box {
+  width: 650px;
+  padding: 20px 30px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+}
+
+.forgot-header {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  margin-bottom: 15px;
+}

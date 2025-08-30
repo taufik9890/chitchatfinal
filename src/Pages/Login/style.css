@@ -1,0 +1,97 @@
+.inputs {
+  width: 100%;
+  margin-bottom: 12px !important;
+}
+
+.password-box {
+  position: relative;
+}
+
+.login-eyes {
+  position: absolute;
+  top: 45%;
+  right: 1%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.signin-btn {
+  width: 100%;
+  padding: 15px 10px !important;
+  border-radius: 50px !important;
+  background-color: var(--blue) !important;
+}
+
+.login-left {
+  width: 70% !important;
+}
+
+.login-left h3 {
+  color: var(--primary-text-color);
+  font-family: var(--third-font);
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.avatar {
+  text-align: center;
+}
+
+.avatar img {
+  width: 80px;
+}
+
+.login-account p a {
+  color: var(--error);
+}
+
+.login-account {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  font-family: var(--third-font);
+  font-weight: 400;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.authentication {
+  display: flex;
+  border: 1px solid var(--border-color);
+  width: 26%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 9px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.auth_text {
+  margin-left: 10px;
+}
+
+.auth_text p {
+  font-size: 13px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  color: var(--primary-text-color);
+}
+
+.login-account a {
+  margin-top: 5px;
+  margin-bottom: 7px;
+  display: inline-block;
+}
+
+.login-account a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,142 @@
+.sidebar {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--primary-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.profile-picture::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+}
+
+.profile-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all linear 0.3s;
+}
+
+.profile-overlay svg {
+  fill: #fff !important;
+  width: 25px;
+  height: 25px;
+  z-index: 2;
+}
+
+.profile-picture:hover .profile-overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sidebar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.sidebar-icons {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.sidebar-icons.active::after {
+  position: absolute;
+  content: "";
+  width: 125px;
+  height: 65px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background-color: #fff;
+  z-index: -1;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  opacity: 1;
+}
+
+.sidebar-icons.active::before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 65px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background-color: var(--primary-color);
+  z-index: 2;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  opacity: 1;
+}
+
+.sidebar-icons svg {
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.sidebar-icons svg path {
+  fill: #fff;
+}
+
+.sidebar-icons.active svg path {
+  fill: var(--primary-color);
+}
+
+.logout {
+  display: flex;
+  justify-content: center;
+  cursor: pointer; 
+}
+
+.logout svg {
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.logout svg path {
+  fill: #fff;
+}
+
+.username {
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 400;
+}

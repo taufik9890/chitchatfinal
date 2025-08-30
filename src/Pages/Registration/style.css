@@ -1,0 +1,86 @@
+.box {
+  align-items: center;
+  height: 100vh;
+}
+
+.registration .inputs {
+  width: 70%;
+  margin-bottom: 12px !important;
+}
+
+.registration-left h3 {
+  color: var(--primary-text-color);
+  font-family: var(--third-font);
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.registration-left span {
+  color: var(--secondary-text-color);
+  font-family: var(--third-font);
+  font-size: 18px;
+  margin-bottom: 18px;
+  display: inline-block;
+}
+
+.password-box {
+  position: relative;
+}
+
+.eyes {
+  position: absolute;
+  top: 45%;
+  right: 31%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.signup-btn {
+  width: 70%;
+  padding: 15px 10px !important;
+  border-radius: 50px !important;
+  background-color: var(--button-color) !important;
+}
+
+.signup-btn:hover {
+  background-color: var(--blue) !important;
+}
+
+.register_pic {
+  width: 100%;
+}
+
+.loader {
+  margin-bottom: 0 !important;
+}
+
+.account {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  font-family: var(--third-font);
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.account p a {
+  color: var(--error);
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: var(--border-color) !important;
+  color: var(--black) !important;
+}
+
+/* .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  color: var(--black) !important;
+} */
+
+.inputs input {
+  color: var(--black) !important;
+}
+
+.inputs label {
+  color: var(--black) !important;
+}

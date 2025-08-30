@@ -1,0 +1,115 @@
+.msggrp {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  background-color: var(--white);
+  box-sizing: border-box;
+  padding: 15px;
+  height: 250px;
+  overflow-y: auto;
+}
+
+.msggrp-header h4 {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black);
+  text-transform: capitalize;
+}
+
+.msggrp-name p {
+  font-family: var(--primary-font);
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.msggrp-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.msggrp-wrapper:hover {
+  background-color: rgba(231, 231, 231, 0.01);
+}
+
+.msggrp-wrapper:last-child {
+  border-bottom: none;
+}
+
+.msggrp-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.msggrp-name {
+  width: 60%;
+  padding-left: 10px;
+}
+
+.msggrp-name h4 {
+  font-family: var(--primary-font);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--black);
+  text-transform: capitalize;
+}
+
+.msggrp-name span {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--primary-font);
+  text-transform: capitalize;
+}
+
+.msggrp-btn {
+  width: 20%;
+}
+
+/* .msggrp-btn button {
+  width: 100%;
+  border: none;
+  color: var(--white);
+  background-color: var(--blue);
+  padding: 4px 0;
+  border-radius: 5px;
+  font-family: var(--primary-font);
+  font-size: 12px;
+  font-weight: 400;
+  cursor: pointer;
+  margin-bottom: 5px;
+  transition: all linear 0.3s;
+}
+
+.msggrp-btn button:hover {
+  background-color: rgb(255, 62, 62);
+} */
+
+.goback-btn {
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  color: #fff;
+  background-color: var(--primary-color);
+  padding: 4px 0;
+  border-radius: 5px;
+  font-family: var(--primary-font);
+  font-size: 12px;
+  font-weight: 400;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.wrapper p {
+  text-align: center;
+  font-size: 16px;
+  font-family: var(--primary-font);
+  font-weight: 400;
+}
