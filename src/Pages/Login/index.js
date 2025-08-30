@@ -118,27 +118,6 @@ const Login = () => {
                     <p>Google</p>
                   </div>
                 </div>
-                <div className="authentication" onClick={handleGoogleauth}>
-                  <div className="auth_pic">
-                    <picture>
-                      <img src="./media/images/google.png" alt="google" />
-                    </picture>
-                  </div>
-                  <div className="auth_text">
-                    <p>Twitter</p>
-                  </div>
-                </div>
-                <div className="authentication" onClick={handleGoogleauth}>
-                  <div className="auth_pic">
-                    <picture>
-                      <img src="./media/images/google.png" alt="google" />
-                    </picture>
-                  </div>
-                  <div className="auth_text">
-                    <p>Github</p>
-                  </div>
-                </div>
-              </div>
               <form onSubmit={formik.handleSubmit}>
                 <TextField
                   className="inputs"
