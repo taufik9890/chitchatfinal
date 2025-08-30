@@ -118,6 +118,7 @@ const Login = () => {
                     <p>Google</p>
                   </div>
                 </div>
+              </div>
               <form onSubmit={formik.handleSubmit}>
                 <TextField
                   className="inputs"
